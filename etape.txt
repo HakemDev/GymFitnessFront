@@ -1,0 +1,29 @@
+10/add link of bootstrap in index.html and write---- npm install bootstrap --save in terminal
+11/verifier que bootstrap is added to bootstrap ---in package.json
+12/ add tableau d'affichage des clients ---ClientsDisplay.jsx
+13/add axios http library provides a flexible api to work --- write in terminal npm install axios --save
+14/verify that axios is added in package.json dependency
+15/create a class for client in ------src->axios_service->client.js
+16/add componentdidmount method to call a rest api , this method will get immediately called after a component is 
+  mounted -- ClientsDisplay.jsx
+17/create footer component ---- src->components->stable->Footer.jsx
+18/use the fooer component in app.js
+
+------------------------ create routing ---------------------
+19/use react router package to configure routing for our application, so let's install react router using
+   npm command ---- write: npm install react-router-dom
+20/configure app.js to add routing (Routes,Route,Router)
+
+21/create addclient component ---- src->component->clients->ClientAddForm.jsx
+22/add button to add client in list client --- ClientsDisplay.jsx
+23/ create a form to add new client and also add event handler to submit data and save data for every
+ change in event for inputs --- ClientAddForm.jsx
+24/ use axios to post data ---- client.js
+25/ let's add new client in submit function --- ClientAddForm.jsx
+26/add find client by id and updat client in spring
+27/create update client component ---- src->component->clients->ClientUpdateForm.jsx
+28/add form in update component ------ ClientUpdateForm.jsx
+29/solve the proble to get id in update component ------ ClientUpdateForm.jsx
+30/add update axios methode ---- client.js
+31/ add delete by id endpoint in spring
+32/add delete button ----- ClientsDisplay.jsx
